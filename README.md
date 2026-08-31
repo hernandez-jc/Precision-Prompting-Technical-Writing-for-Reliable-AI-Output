@@ -1,6 +1,7 @@
 # Precision Prompting & Technical AI Enablement Framework
 
 A research-grounded blueprint bridging machine learning architectures, high-precision technical English, and global workforce AI adoption.
+![Cover image](Assets/Cover%20image.png)
 
 ---
 
