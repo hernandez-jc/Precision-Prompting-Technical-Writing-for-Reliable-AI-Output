@@ -12,7 +12,7 @@ This module establishes protocols for eliminating behavioral sycophancy and cogn
 
 ## 2. Linguistic vs. ML Mechanics
 
-`[VERIFIED]` The pressure on LLMs to be agreeable triggers specific behavioral failure modes. When prompts contain leading questions or evaluative language, the model attempts to conform to the user's apparent premise, even when that premise is factually incorrect.
+ The pressure on LLMs to be agreeable triggers specific behavioral failure modes. When prompts contain leading questions or evaluative language, the model attempts to conform to the user's apparent premise, even when that premise is factually incorrect.
 
 In computational terms, subjective or biased phrasing distorts the model's sequence prediction. When an input includes emotionally charged or leading words, the transformer's self-attention mechanism assigns higher probability weights to tokens that align with those biases, rather than those grounded in factual accuracy.
 
@@ -55,10 +55,10 @@ To eliminate sycophancy and vague argumentation, execute the following step-by-s
 
 The methodologies in this module are anchored in the following literature:
 
-> `[VERIFIED]` "Extraneous cognitive load can be significantly reduced by structuring information to match human working memory constraints."
+>  "Extraneous cognitive load can be significantly reduced by structuring information to match human working memory constraints."
 > — *Sweller (1988), Cognitive Load During Problem Solving: Effects on Learning*
 
-> `[VERIFIED]` "Effective digital instruction aligns visual and verbal information channels to optimize learner schema acquisition."
+>  "Effective digital instruction aligns visual and verbal information channels to optimize learner schema acquisition."
 > — *Mayer (2021), Multimedia Learning*
 
 > `[INFERRED]` Mitigating sycophancy requires explicit prompt reframing to counteract the statistical pressure placed on models to act as agreeable conversational partners, a behavior categorized within broader LLM failure modes.
