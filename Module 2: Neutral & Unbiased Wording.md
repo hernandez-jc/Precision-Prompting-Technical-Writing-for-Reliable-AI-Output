@@ -61,5 +61,5 @@ The methodologies in this module are anchored in the following literature:
 >  "Effective digital instruction aligns visual and verbal information channels to optimize learner schema acquisition."
 > — *Mayer (2021), Multimedia Learning*
 
-> `[INFERRED]` Mitigating sycophancy requires explicit prompt reframing to counteract the statistical pressure placed on models to act as agreeable conversational partners, a behavior categorized within broader LLM failure modes.
+> Mitigating sycophancy requires explicit prompt reframing to counteract the statistical pressure placed on models to act as agreeable conversational partners, a behavior categorized within broader LLM failure modes.
 > — *Derived from failure mode taxonomy mapping*
