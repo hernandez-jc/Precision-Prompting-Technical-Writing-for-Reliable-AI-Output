@@ -30,7 +30,7 @@ $$H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i)$$
 
 Precision technical English reduces entropy $H(X)$ toward 0. By utilizing strict boundaries and explicit syntactic structures (e.g., specifying *"shut the hatch"* instead of *"close the hatch"* to avoid overlap with physical proximity), the user forces the transformer model to focus its attention parameters strictly on the intended output domain.
 
-### `[VERIFIED]` Mapping the Primary Failure Modes
+###  Mapping the Primary Failure Modes
 
 Unstructured prompting triggers specific structural failure modes. When users treat prompts as conversational requests rather than precise instructions, the model exhibits the following foundational vulnerabilities:
 
@@ -63,14 +63,14 @@ To eliminate semantic drift and lower cognitive load, prompt execution must foll
 
 The methodologies in this module are anchored in the following literature:
 
-> `[VERIFIED]` "Transformer architectures rely on self-attention mechanisms to dynamically weigh token relationships across a sequence."
+>  "Transformer architectures rely on self-attention mechanisms to dynamically weigh token relationships across a sequence."
 > — *Vaswani et al. (2017), Attention Is All You Need*
 
-> `[VERIFIED]` "Understanding Large Language Models requires distinguishing between statistical sequence prediction and actual conceptual reasoning."
+>  "Understanding Large Language Models requires distinguishing between statistical sequence prediction and actual conceptual reasoning."
 > — *Shanahan (2024), Talking About Large Language Models*
 
-> `[VERIFIED]` "Extraneous cognitive load can be significantly reduced by structuring information to match human working memory constraints."
+>  "Extraneous cognitive load can be significantly reduced by structuring information to match human working memory constraints."
 > — *Sweller (1988), Cognitive Load During Problem Solving: Effects on Learning*
 
-> `[VERIFIED]` "Individual change is the foundation of organizational transformation; sustainable adoption requires structured awareness, desire, knowledge, ability, and reinforcement."
+>  "Individual change is the foundation of organizational transformation; sustainable adoption requires structured awareness, desire, knowledge, ability, and reinforcement."
 > — *Hiatt (2006), ADKAR: A Model for Change in Business, Government and Our Community*
