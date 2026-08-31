@@ -12,7 +12,7 @@ This module establishes protocols for converting natural language text generatio
 
 ## 2. Linguistic vs. ML Mechanics
 
-`[VERIFIED]` Language models operate by predicting subsequent tokens based on probability distributions governed by sampling parameters. Unconstrained prompt instructions permit wide probability variances across multiple output tokens, resulting in high non-determinism and formatting errors.
+Language models operate by predicting subsequent tokens based on probability distributions governed by sampling parameters. Unconstrained prompt instructions permit wide probability variances across multiple output tokens, resulting in high non-determinism and formatting errors.
 
 In computational linguistics, unstructured text requests allow high semantic entropy and unconstrained token sampling:
 
@@ -53,11 +53,11 @@ To eliminate non-determinism and formatting non-compliance, execute the followin
 
 The methodologies in this module are anchored in the following literature:
 
-> `[VERIFIED]` "Generating step-by-step reasoning chains significantly improves the performance of language models on complex reasoning tasks."
+> "Generating step-by-step reasoning chains significantly improves the performance of language models on complex reasoning tasks."
 > — *Wei et al. (2022), Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*
 
-> `[VERIFIED]` "Combining reasoning traces with task-specific actions enables models to interact with external environments effectively."
+> "Combining reasoning traces with task-specific actions enables models to interact with external environments effectively."
 > — *Yao et al. (2023), ReAct: Synergizing Reasoning and Acting in Language Models*
 
-> `[INFERRED]` Constraining sampling parameters and enforcing strict schema delimiters acts as a primary control mechanism to eliminate non-determinism and formatting non-compliance in transformer architectures.
+> Constraining sampling parameters and enforcing strict schema delimiters acts as a primary control mechanism to eliminate non-determinism and formatting non-compliance in transformer architectures.
 > — *Derived from failure mode taxonomy mapping*
