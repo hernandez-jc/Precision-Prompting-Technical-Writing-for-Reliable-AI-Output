@@ -6,8 +6,7 @@
 
 This module establishes protocols for converting natural language text generation into deterministic, machine-readable data structures. It targets global enterprise professionals operating with CEFR B2–C1 English proficiency. The primary objective is to equip users with technical writing standards necessary to enforce rigid output schemas, apply precise sampling parameters, and execute multi-pass analytical patterns that eliminate non-determinism and formatting non-compliance.
 
-*   **Scope Boundary:** This module addresses the mitigation of *Non-Determinism and Formatting Non-Compliance* failure modes via schema enforcement, role assignment, and temperature control. `[CONTEXT_LIMITATION: INSUFFICIENT_SOURCE_DATA]` regarding specific programmatic backend API parameter configurations beyond core sampling settings or model-layer fine-tuning algorithms.
-
+*   **Scope Boundary:** This module addresses the mitigation of *Non-Determinism and Formatting Non-Compliance* failure modes via schema enforcement, role assignment, and temperature control. 
 ---
 
 ## 2. Linguistic vs. ML Mechanics
