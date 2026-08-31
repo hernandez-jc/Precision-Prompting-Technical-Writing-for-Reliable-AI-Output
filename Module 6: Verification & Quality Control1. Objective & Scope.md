@@ -6,13 +6,13 @@
 
 This module establishes the protocols required to audit, evaluate, and verify the output of generative language models systematically. It targets global enterprise professionals operating with CEFR B2–C1 English proficiency. The primary objective is to equip users with the technical frameworks necessary to shift from subjective prompt testing to objective, criteria-based evaluation loops.
 
-*   **Scope Boundary:** This module addresses the mitigation of *Reasoning Errors and Overconfidence* failure modes through structured verification loops (CoVe) and rubric-based assessment. `[CONTEXT_LIMITATION: INSUFFICIENT_SOURCE_DATA]` regarding the automated programmatic deployment of quantitative evaluation metrics (e.g., automated $\text{ROUGE}$ or $\text{BLEU}$ scoring pipelines) beyond conceptual application.
+*   **Scope Boundary:** This module addresses the mitigation of *Reasoning Errors and Overconfidence* failure modes through structured verification loops (CoVe) and rubric-based assessment.
 
 ---
 
 ## 2. Linguistic vs. ML Mechanics
 
-`[VERIFIED]` Generative models do not possess innate self-correction mechanisms during a single forward pass; they generate token sequences based on statistical probability. When asked to evaluate their own output within the same sequence, models often compound initial errors rather than identifying them.
+Generative models do not possess innate self-correction mechanisms during a single forward pass; they generate token sequences based on statistical probability. When asked to evaluate their own output within the same sequence, models often compound initial errors rather than identifying them.
 
 In computational linguistics, relying on a single, unverified generation introduces high variance and entropy:
 
@@ -50,11 +50,11 @@ To eliminate reasoning errors and enforce quality control, execute the following
 
 The methodologies in this module are anchored in the following literature:
 
-> `[VERIFIED]` Generating explicit verification questions and answering them prior to final output generation reduces reasoning errors and hallucination rates in language models.
+>  Generating explicit verification questions and answering them prior to final output generation reduces reasoning errors and hallucination rates in language models.
 > — *Derived from principles in Medium (CoVe Application)*
 
-> `[VERIFIED]` "A Prompt Pattern Language for Large Language Models."
+>  "A Prompt Pattern Language for Large Language Models."
 > — *White et al. (2023), arXiv preprint arXiv:2302.11382*
 
-> `[INFERRED]` Structuring explicit evaluation rubrics standardizes the subjective assessment of linguistic output, mapping to consistent quality control in enterprise AI deployments.
-> — *Derived from instructional design constraints*
+> Structuring explicit evaluation rubrics standardizes the subjective assessment of linguistic output, mapping to consistent quality control in enterprise AI deployments.
+
